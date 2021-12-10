@@ -189,4 +189,26 @@ body {
 
 
 
-/*Productos*/
+/*Contacto*/
+
+
+
+.titulo__contacto{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.column {
+    float: left;
+    width: 80%; 
+}
+
+
+
+.contacto{
+    position: relative;
+    z-index: 2; /*Para ordenar div - suerponer uno por otro */
+    background-color: white;
+}
+
