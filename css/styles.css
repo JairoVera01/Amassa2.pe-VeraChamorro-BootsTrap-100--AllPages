@@ -1,0 +1,192 @@
+/*Estilos - Header - NavBar*/
+
+.header{
+    font-size: 1.29rem;
+    
+}
+
+.header__img{
+    height: 4.2rem;
+    border-radius: 5rem;    
+    transition: all 2s;
+    margin-left: 10px;
+}
+
+.header__img:hover{
+    transform: translate(1rem);
+}
+
+
+.contenedor__logo{
+    margin-right: 1.5rem;
+}
+
+.navbar-light{
+    background-color: #E3BC91;
+}
+
+.nav-link{
+    margin-left: 1.2rem;
+}
+
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }   
+}
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1000ms cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1000ms cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+
+/*Estilos - Hero Section*/
+.hero{
+    height: 70vh;
+    background-image: url("../assets/resources/fondo_hero.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2; /*Para ordenar div - suerponer uno por otro */
+}
+
+.hero__contenedor{
+    width: 400px;
+    position: relative;
+    left: 4rem;
+
+}
+
+.hero__titulo{   
+    color: white ;
+    font-size: 3.5rem;  
+    margin-bottom: 3rem;
+}
+
+.btn__compra{
+    font-size: 1.5rem;
+}
+
+.hero{
+    -webkit-animation: bg-pan-top 60s both;
+            animation: bg-pan-top 60s both;
+}
+
+
+@-webkit-keyframes bg-pan-top {
+    0% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+@keyframes bg-pan-top {
+    0% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+
+
+/*PRODUCTOS HTML*/
+body {
+    margin: 0;
+}
+
+.container__ola {
+    height: 380px;
+    background: #E3BC91;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content__ola {
+    text-align: center;
+    font-size: 2em;
+    color: rgba(255,255,255, .8);
+}
+
+.ola{
+    padding-right: 0px;
+    padding-left: 0px;
+    z-index: 3;
+}
+.waves {
+    position: absolute;
+    bottom: -135px;
+    height: 527px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wave {
+    position: absolute;
+    left: -180px;
+    bottom: 0;
+    width: 2402px;
+    height: 427px;
+    background: url(https://static.platzi.com/media/files/waves_c8551f5d-ecf6-4a81-ae1d-f3a0ad55ba10.png) center bottom no-repeat;
+    animation: 5s wave ease-in-out infinite alternate;
+}
+
+.wave.a {
+    background-position: 0 -854px;
+}
+
+.wave.b {
+    background-position: 0 -427px;
+    animation-delay: .6s;
+}
+
+.wave.c {
+    background-position: 0 0;
+    animation-delay: 1.2s;
+}
+
+@keyframes wave {
+    0% {
+        transform: translate(0 , 0);
+    }
+    50% {
+        transform: translate(-80px, 30px);
+    }
+    100% {
+        transform: translate(160px, -60px);
+    }
+}
+
+
+
+/*Productos*/
