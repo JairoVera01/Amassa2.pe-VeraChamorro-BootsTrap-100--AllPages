@@ -5,6 +5,7 @@
     
 }
 
+
 .header__img{
     height: 4.2rem;
     border-radius: 5rem;    
@@ -196,7 +197,7 @@ body {
 .titulo__contacto{
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem; 
 }
 
 .column {
