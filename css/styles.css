@@ -223,3 +223,14 @@ body {
     z-index: 2; 
     background-color: white;
 }
+
+.container__about{
+    position: relative;
+    background-color: white;
+}
+
+.texto__about{
+    text-align: justify;
+}
+
+
